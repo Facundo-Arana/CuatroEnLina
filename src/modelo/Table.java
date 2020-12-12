@@ -82,7 +82,7 @@ public class Table {
 			cont++;
 			c++;
 		}
-		return cont >= Game.NumToWin;
+		return cont >= Game.NUM_TO_WIN;
 	}
 
 
@@ -99,7 +99,7 @@ public class Table {
 			cont++;
 			r++;
 		}
-		return cont >= Game.NumToWin;
+		return cont >= Game.NUM_TO_WIN;
 	}
 
 	private boolean diagonales() {	
@@ -123,7 +123,7 @@ public class Table {
 			c++;
 			r++;
 		}
-		return cont >= Game.NumToWin;
+		return cont >= Game.NUM_TO_WIN;
 	}
 
 	private boolean diagonalUp() {
@@ -143,7 +143,7 @@ public class Table {
 			c++;
 			r--;
 		}
-		return cont >= Game.NumToWin;
+		return cont >= Game.NUM_TO_WIN;
 	}
 
 	public boolean free() {

@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 
 public class Game {
 
-	public static final int NumToWin = 4;
+	public static final int NUM_TO_WIN = 4;
 	private Player j1, j2, playerTurn;
 	private Table table;
 	private boolean winner;
